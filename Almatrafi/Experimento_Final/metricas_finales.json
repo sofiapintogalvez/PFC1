@@ -1,0 +1,46 @@
+{
+    "modelo": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+    "entrenamiento": 100,
+    "validacion": 100,
+    "prueba": 2000,
+    "epocas": 3,
+    "pasos_entrenamiento": 75,
+    "seed": 25,
+    "accuracy": 0.968,
+    "precision": 0.9864864864864865,
+    "recall": 0.949,
+    "f1_score": 0.9673802242609582,
+    "matriz_confusion": [
+        [
+            987,
+            13
+        ],
+        [
+            51,
+            949
+        ]
+    ],
+    "especificidad": 0.987,
+    "resultados_por_tipo": {
+        "tipo_1": {
+            "total": 250,
+            "detectados": 250,
+            "recall": 1.0
+        },
+        "tipo_2": {
+            "total": 250,
+            "detectados": 250,
+            "recall": 1.0
+        },
+        "tipo_3": {
+            "total": 250,
+            "detectados": 245,
+            "recall": 0.98
+        },
+        "tipo_4": {
+            "total": 250,
+            "detectados": 204,
+            "recall": 0.816
+        }
+    }
+}

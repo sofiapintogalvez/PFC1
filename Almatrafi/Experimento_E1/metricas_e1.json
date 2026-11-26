@@ -1,0 +1,18 @@
+{
+    "experimento": "E1",
+    "modelo": "Qwen2.5-Coder-1.5B-Instruct",
+    "entrenamiento": 20,
+    "validacion": 20,
+    "prueba": 100,
+    "epocas": 3,
+    "accuracy": 0.9,
+    "precision": 0.9762,
+    "recall": 0.82,
+    "f1_score": 0.8913,
+    "recall_por_tipo": {
+        "tipo_1": 1.0,
+        "tipo_2": 1.0,
+        "tipo_3": 0.8333,
+        "tipo_4": 0.4615
+    }
+}
